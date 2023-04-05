@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: roots/issue-closer-action@v1.1
     - name: Build code
       run: <BUILD>
