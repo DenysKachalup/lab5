@@ -12,4 +12,4 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     - name: Build code
-      run: npm install @vue/cli-service && npm run build
+      run:  npm run build
